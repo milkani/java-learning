@@ -78,9 +78,3 @@ public class MethodsExercises {
     3. Create simple calculator method
     4. Check if word is Palindrome
      */
-
-
-
-
-
-
