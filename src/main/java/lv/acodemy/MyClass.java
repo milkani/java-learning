@@ -6,7 +6,6 @@ public class MyClass {
         System.out.println("Ja u Mami programmist!");
 
         // Your text is here (one-line comment)
-
         /*
         First line
         Second line
