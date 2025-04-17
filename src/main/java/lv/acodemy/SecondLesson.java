@@ -77,7 +77,7 @@ public class SecondLesson {
         // Print in reverse order;
 
         int[] nums = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        for(int i = nums.length - 1; i >= 0; i--) {
+        for(int i = nums.length; i >= 0; i--) {
             System.out.print(nums[i] + " ");
         }
 
@@ -125,15 +125,15 @@ public class SecondLesson {
 //        System.out.println("Access granted!");
 //
 //
-//        boolean isGuessed = false;
-//        while (!isGuessed)
-//        if(!password.equals("secret")) {
-//            System.out.println("Enter your password:");
-//            password = scanner.nextLine();
-//        } else {
-//            System.out.println("Access granted!");
-//            isGuessed = true;
-//        }
+        boolean isGuessed = false;
+        while (!isGuessed)
+        if(!password.equals("secret")) {
+            System.out.println("Enter your password:");
+            password = scanner.nextLine();
+        } else {
+            System.out.println("Access granted!");
+            isGuessed = true;
+        }
 
 
         int randomNumber = new Random().nextInt(0, 11);
